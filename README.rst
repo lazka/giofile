@@ -33,3 +33,16 @@ Example
     cancellable = Gio.Cancellable.new()
     with giofile.open(gio_file, "rb", cancellable=cancellable) as gfile:
         print(mutagen.File(gfile).pprint())
+
+.. code:: sh
+
+    $ python example.py
+    Ogg Opus, 228.11 seconds (audio/ogg)
+    ENCODER=opusenc from opus-tools 0.1.5
+    artist=Ehren Starks
+    title=Paper Lights
+    album=Lines Build Walls
+    date=2005-09-05
+    copyright=Copyright 2005 Ehren Starks
+    license=http://creativecommons.org/licenses/by-nc-sa/1.0/
+    organization=magnatune.com
