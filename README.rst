@@ -18,6 +18,9 @@ Opens a Gio.File as a Python file object
         Returns a io.IOBase instance.
         """
 
+.. image:: https://travis-ci.org/lazka/giofile.svg?branch=master
+    :target: https://travis-ci.org/lazka/giofile
+
 Example
 =======
 
