@@ -12,7 +12,7 @@ before_script:
   - docker run --volume "$(pwd):/app" --workdir "/app" --tty --detach myimage bash > container_id
 
 script:
-  - docker exec "$(cat container_id)" "$PYTHON" -m pytest
+  - docker exec "$(cat container_id)" dbus-launch "$PYTHON" -m pytest
   - docker exec "$(cat container_id)" "$PYTHON" -m flake8
 
 after_script:
