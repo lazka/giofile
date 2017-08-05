@@ -1,0 +1,11 @@
+.cache
+dist
+MANIFEST
+*.pyc
+docs/_build
+*.egg-info
+coverage
+.coverage
+build
+.hypothesis
+.eggs
