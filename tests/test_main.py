@@ -30,7 +30,7 @@ from gi.repository import Gio
 from giofile import open as gopen
 
 
-@pytest.fixture
+@pytest.yield_fixture
 def gfile():
     fd, name = tempfile.mkstemp()
     os.close(fd)
