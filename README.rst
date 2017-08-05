@@ -21,6 +21,13 @@ Opens a Gio.File as a Python file object
 .. image:: https://travis-ci.org/lazka/giofile.svg?branch=master
     :target: https://travis-ci.org/lazka/giofile
 
+Installation
+============
+
+::
+
+    pip install giofile
+
 Example
 =======
 
