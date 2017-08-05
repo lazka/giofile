@@ -31,7 +31,7 @@ def read(path):
 
 setup(
     name='giofile',
-    version='0.1.0',
+    version='0.2.0',
     description=('Opens a Gio.File as a Python file object'),
     long_description=read('README.rst'),
     author='Christoph Reiter',
