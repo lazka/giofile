@@ -1,5 +1,8 @@
-0.2.0 - ????-??-??
+0.2.0 - 2017-12-15
 ------------------
+
+* setup.py: depend on pygobject
+* Drop Python 3.3 support
 
 
 0.1.0 - 2017-08-05
